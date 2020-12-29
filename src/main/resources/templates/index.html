@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Fit Database</title>
+    <link rel="stylesheet" th:href="@{/css}">
+    <link rel="stylesheet" th:href="@{/css/style.css}">
+</head>
+<body>
+    <div class="tut">
+        <h1 class="ang">Angebotsgenerator</h1>
+    </div>
+
+   <p style="position: absolute"><img src="Cover.jpg" align="right" width="330" height="140">
+   </p>
+
+    <ul class="mn">
+        <li><a th:href="@{/angebotmenu}">AngebotsGenerator</a>
+            <ul class="mn">
+                <li><a th:href="@{/angebotcreate}">Add Angebot</a></li>
+                <li><a th:href="@{/angebotshow}">Show Angebots</a></li>
+            </ul>
+        </li>
+
+        <li><a th:href="@{/kaefigsystemmenu}">KaefigSystemMenu</a>
+            <ul class="mn">
+                <li><a th:href="@{/kaefigsystemcreate}">Add Kaefig</a></li>
+                <li><a th:href="@{/kaefigsystemshow}">Show Kaefig</a></li>
+            </ul>
+        </li>
+
+        <li><a th:href="@{/kopfteilmenu}">KopfteilMenu</a>
+            <ul class="mn">
+
+                <li><a th:href="@{/kopfteilcreate}">Add Kopfteil</a></li>
+
+                <li><a th:href="@{/kopfteilshow}">Show Kopfteil</a></li>
+
+            </ul>
+        </li>
+
+        <li><a th:href="@{/stallcomponentmenu}">StallComponentMenu</a>
+            <ul class="mn">
+
+                <li><a th:href="@{/stallcomponentcreate}">Add StallComponent</a></li>
+
+                <li><a th:href="@{/stallcomponentshow}">Show StallComponent</a></li>
+
+            </ul>
+        </li>
+
+        <!--StallManagmentmenu?-->
+    </ul>
+
+
+
+</body>
+</html>
